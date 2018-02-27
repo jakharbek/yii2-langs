@@ -1,0 +1,24 @@
+{
+    "name": "jakharbek/yii2-langs",
+    "description": "Langs",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","langs"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "javharbek",
+            "email": "javhar_work@mail.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    }, 
+	"extra": {
+        "bootstrap": "jakharbek\\langs\\Bootstrap"
+    },
+    "autoload": {
+        "psr-4": {
+            "jakharbek\\langs\\": "src"
+        }
+    }
+}
